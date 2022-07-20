@@ -1,0 +1,97 @@
+* {
+  box-sizing: border-box;
+}
+
+html,
+body,
+main,
+.quiz {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+
+body {
+  font-family: sans-serif;
+  background-color: blue;
+}
+
+h1 {
+    text-align: center;
+}
+
+.start-btn {
+    text-align: center;
+}
+p {
+    text-align: center;
+}
+.scores {
+  text-align: left;
+  color: black;
+  margin: 10px;
+  font-size: 20px;
+}
+
+.button-container {
+  text-align: center;
+  background-color: white;
+  border-radius: 10px;
+  border-width: 5px;
+  color: black;
+  font-size: 20px;
+  margin: 0 auto;
+  max-width: 1000px;
+  padding: 30px 40px;
+}
+.buttons {
+  text-align: left;
+  color: gray;
+  font-size: 15px;
+}
+
+.button1 {
+    border: none;
+    color: black;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+button {
+    border: none;
+    color: black;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+.scores {
+    display:inline-block;
+}
+
+footer {
+    text-align: left;
+
+}
+@media screen and (max-width: 768px) {
+    h1 {
+        margin: 50px 150px;
+    }
+}
+@media screen and (min-width: 350px) {
+    h1 {
+        margin: 50px 75px;
+    }
+}
+@media screen and (max-width: 350px) {
+    h1 {
+        margin: 0;
+    }
+}
