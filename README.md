@@ -1,10 +1,3 @@
-<!-- PROJECT LOGO -->
-<br />
-<div align="center">
-  <a href="https://github.com/brendonc-h/Coding-Quiz">
-    <img src="images/logo.png" alt="Logo" width="80" height="80">
-  </a>
-
 <h3 align="center">Coding Quiz</h3>
 
   <p align="center">
